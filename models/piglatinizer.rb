@@ -16,9 +16,4 @@ class PigLatinizer
     word_array = phrase.to_s.split(' ')
     @user_phrase = word_array.collect{|word| to_pig_latin(word)}.join(" ")
   end
-
-
-
-
-
 end
