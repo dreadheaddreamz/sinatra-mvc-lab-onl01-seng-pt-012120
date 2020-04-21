@@ -1,4 +1,3 @@
-  
 class PigLatinizer
 
   attr_accessor :user_phrase
